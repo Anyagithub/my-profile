@@ -1,0 +1,108 @@
+/* Colors and fonts */
+
+
+body {
+	background-color: rgb(239, 239, 239);
+	color: black;
+	font-family: Calibri;
+	text-align: center;
+	font-size: 16px;
+}
+
+h1 {
+	color: pink;
+	letter-spacing: 5px;
+	font-size: 50px;
+	text-align: center;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+h2 {
+	color: rgb(230, 200, 200);
+	color: pink;
+	font-family: Calibri;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+a:hover {
+	color: grey;
+}
+
+/* Custom design with class (99% of your  design) */
+.container {
+	width: 850px;
+	margin: auto;
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 4px;
+	text-align: justify;
+	margin: 20px 0px;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.IMG.diplayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-circle {
+	border-radius: 90%
+}
+
+.btn-blue {
+	background-color: grey;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(200, 200, 200);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rbg(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction  p{
+	margin-bottom: 40px;
+}
+
+.list-li {
+	list-style: inline;
+	padding: 10px;
+}
+
+.list-inline  {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.fb:hover {
+	color: pink;
+}
